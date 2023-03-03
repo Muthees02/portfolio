@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfoliocss.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Josefin+Sans&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
+    
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <nav>
+                <h2 class="logo">Portfo<span>lio</span></h2>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <!-- <li><a href="#">Education</a></li>
+                    <li><a href="#">Skills</a></li> -->
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Devoloper</p>
+                <h1>Hi,I'am <span>Muthees</span>waran</h1>
+            </div>
+        </div>
+    </div>
+    <!---about-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="https://lh3.googleusercontent.com/1-T12HNGHXKx-qUBbKf9hUsDctmxmAjknTbAKFwxz5UWB6gXyHYus838C9_nkfpE4Dby_uBCtI0RiCfdFeMrLA3RrmjYwQlcolV1kLRkSnZtvAJD-GQKUiYo_5E2VuWNSTO93CcpVU_ggRokxbiziCE-iuQqqNq2FMybRTYj4g8YAWzVJeD8BGy6MBjqUkyPKqER0Pgqqd0X4Rg4SbgCY4b37CZv-SXpIV4Ezj94VGzhbjnZUR2Iqm9R06pGAp7anRbODIvxUQEzuo7qow2ju9C4t1wEv56AayVa5tlsUBeVWOOppEfEVsbRqsKd_wBEOF7iFKOntASBteWLkl9m51vAQh9PbK4D65zvocqOn3GKfCpUiDzDCPfdsT10gX89csMbQ5sN9h8GjWliOuhy2bFqgvMeCIjzLlCBHVTDAYB97CYv2jb5qubpuERmFDEB-syL9Jt5CZt6Y0CTikleEphHlowhyPhwEDEaV2Y0kcuBaZutlGz5OPgQmpQIUGxSiTMDTuzLnmhXpqnwf1yKuT_7Aslgjpgb77gDZnj2-GMD495_nYwbcaujQbQHFsi6NaAjcc9D6GoCrZZbx8ZfjiAc6zVxTDJ6G4XtjSxQJaPfbCPAnmq2Av-s_g_sm60Yk0o94msKk8-XzWi_O9ln3Xt-nXadzZ0aQoUzMECKKoK7ocxyIyl8vyzRM7egDhBvf2S1Zczlp0Kaki5glvVatTbXwJ98ZGNny-JV4m2p99FLbepVrABZCcQhkP-5vFKCabHuVnJwvkcVgvSWpfYH6dhc8LKP2ZCORzLfuRsT6mEky7ACMT5eGUI5a4dkyiF0EAkkVKaX0LC5QgbGsRsQOG6o2excn2op5yNlHAqC77RlpQPkBPQlsw_qwadDkHt7P5erhgzfnSxPGzAtaXXByeW9TyZFA7cukd5wv455uS8Z=w1339-h893-s-no?authuser=0" alt="no img">
+                </div>
+                <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a front-end web developer. I can provide clean code and pixel perfect design.
+                    I also make the website more & more interactive with web animations. 
+                    I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations.
+                   A responsive design makes your website accessible to all users, regardless of their device.</p>
+
+                   <div class="tab-titles">
+                    <p class="tab-links active-link " onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                   </div>
+                   <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Devolopment</span><br> & Web Design </li>
+                        <li><span>HTML</span></li>
+                        <li><span>CSS</span></li>
+                        <li><span>JavaScript</span></li>
+                        <li><span>Python </span></li>
+                    </ul>
+                   </div>
+                   <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021</span><br>B.sc from M.K University </li>
+                        <li><span>2018</span><br>HSC from Govt Kallar Higher Secondary School </li>
+                        <li><span>2016</span><br>SSLC from Govt Kallar Higher Secondary School </li>
+                    </ul>
+                   </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!----services-->
+    <!-- <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <h2></h2>
+                </div>
+            </div>
+        </div> -->
+        <!----portfolio---->
+        <!-- <div id="Portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="Work-list">
+                    <div class="work">
+                        
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!------contact------>
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i> mutheeswaran6968@gmail.com</p>
+                        <p><i class="fa-sharp fa-solid fa-square-phone"></i>+916385800369</p>
+                        <div class="social-icon">
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                        <a href="download/mycv.pdf" download class="btn btn2">Download Cv</a>
+                    </div>
+                    <div class="contact-right">
+                        <form >
+                            <input type="text"name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2"><a href="mailto:muthees1149291@gmail.com"> Submit</a></button>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Made with by <i class="fa-solid fa-heart"></i> Mutheeswaran</p>
+            </div>
+        </div>
+
+
+
+
+
+
+    <script>
+        var tablinks =document.getElementsByClassName("tab-links");
+        var tabcontents =document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for( tablink of tablinks){
+            tablink.classList.remove("active-link");
+            }
+            for(  tabcontent of  tabcontents){
+                tabcontent.classList.remove("active-tab");
+            
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+        }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+            
+        }
+    </script>
+</body>
+</html>
